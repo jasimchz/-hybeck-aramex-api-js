@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Set the target JavaScript version
+    "module": "commonjs", // Use CommonJS module system (or "esnext" if you're using ES modules)
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Root directory for your TypeScript files
+    "declaration": true, // Generate type declaration files
+    "esModuleInterop": true, // Enable interoperability with CommonJS modules
+    "strict": true // Enable strict type-checking options
+  },
+  "include": ["src/**/*.ts"], // Include all TypeScript files in the src folder
+  "exclude": ["node_modules"] // Exclude node_modules folder
+}

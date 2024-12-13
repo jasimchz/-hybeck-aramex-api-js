@@ -1,0 +1,42 @@
+# Node modules
+/node_modules/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Build output
+/dist/
+build/
+
+# Yarn v2 (Berry) specific files
+/.yarn/
+/.yarnrc.yml
+/.pnp.*
+.pnp.js
+.pnp.cjs
+.pnp.mjs
+
+
+# TypeScript output
+*.tsbuildinfo
+
+# Dependency directories
+.yarn/
+.pnp/
+*.tgz
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# npm package lock file (if you want to ignore it)
+package-lock.json
+
+# Yarn lock file (if you want to ignore it)
+yarn.lock

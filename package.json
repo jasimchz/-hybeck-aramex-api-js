@@ -1,0 +1,31 @@
+{
+  "name": "@hybeck/aramex-api-js",
+  "version": "1.0.0",
+  "description": "Packages to manage all delivery apis in one palace with typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasimchz/delivery-tracking-js.git"
+  },
+  "keywords": [
+    "aramex",
+    "nodejs"
+  ],
+  "author": "Jasim T K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasimchz/delivery-tracking-js/issues"
+  },
+  "homepage": "https://github.com/jasimchz/delivery-tracking-js#readme",
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
